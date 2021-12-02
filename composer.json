@@ -1,0 +1,25 @@
+{
+    "name": "dat/pkg1",
+    "description": "test pkg 1",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "dat",
+            "email": "mynameisdat6@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "mrdat\\pkg1\\": "src/"
+
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/",
+            "lyhuynh\\firstpackage\\": "packages/mrdat/pkg1/src/"
+        }
+    }
+}
